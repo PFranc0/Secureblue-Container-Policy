@@ -133,10 +133,15 @@
         }
       ],
       "docker.io/jetbrains/devcontainers-helper": [
-  { "type": "insecureAcceptAnything" }
-],
+        { "type": "insecureAcceptAnything" }
+      ],
 
       "mcr.microsoft.com/devcontainers/base": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
+      "mcr.microsoft.com/devcontainers/cpp": [
         {
           "type": "insecureAcceptAnything"
         }
@@ -166,6 +171,11 @@
           "type": "insecureAcceptAnything"
         }
       ],
+      "mcr.microsoft.com/devcontainers/rust": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
       "mcr.microsoft.com/mssql/server": [
         {
           "type": "insecureAcceptAnything"
@@ -175,14 +185,18 @@
         {
           "type": "insecureAcceptAnything"
         }
-      ],"docker.io/library/alpine": [
-  {
-    "type": "insecureAcceptAnything"
-  }
-],
-      
-      
+      ],
+      "docker.io/library/alpine": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
 
+      "ghcr.io/devcontainers/templates/cpp": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
       "ghcr.io/devcontainers/templates/dotnet": [
         {
           "type": "insecureAcceptAnything"
@@ -219,6 +233,11 @@
         }
       ],
       "ghcr.io/devcontainers/templates/python": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
+      "ghcr.io/devcontainers/templates/rust": [
         {
           "type": "insecureAcceptAnything"
         }
