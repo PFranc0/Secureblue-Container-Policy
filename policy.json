@@ -135,6 +135,11 @@
       "docker.io/jetbrains/devcontainers-helper": [
         { "type": "insecureAcceptAnything" }
       ],
+      "docker.io/moby/buildkit": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
 
       "mcr.microsoft.com/devcontainers/base": [
         {
