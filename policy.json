@@ -166,6 +166,11 @@
           "type": "insecureAcceptAnything"
         }
       ],
+      "mcr.microsoft.com/devcontainers/php": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
       "mcr.microsoft.com/devcontainers/typescript-node": [
         {
           "type": "insecureAcceptAnything"
@@ -228,6 +233,11 @@
         }
       ],
       "ghcr.io/devcontainers/templates/javascript-node-postgres": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
+      "ghcr.io/devcontainers/templates/php": [
         {
           "type": "insecureAcceptAnything"
         }
