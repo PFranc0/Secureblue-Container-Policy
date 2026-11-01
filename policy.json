@@ -201,6 +201,11 @@
           "type": "insecureAcceptAnything"
         }
       ],
+      "docker.io/library/busybox": [
+        {
+          "type": "insecureAcceptAnything"
+        }
+      ],
 
       "ghcr.io/devcontainers/templates/cpp": [
         {
